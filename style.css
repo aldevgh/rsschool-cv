@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}  
+.header-box{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.list_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px 0;
+    padding: 0 130px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    list-style: none;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
+    width: 80%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.aside-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 50px 30px 0 30px;
+    background: #fff;
+}
+.main-box{
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 30px;
+    background: #b5d4c5;
+     
+}   
+.footer-box{
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    margin: 30px 0;
+    color: rgb(49, 47, 47);
+}
+.CV-photo{
+    text-align: center;
+    width: 90%;
+}
+.fa{
+    margin-right: 10px;
+    font-size: 25px;
+}
+#personal_profile{
+        text-align: justify;
+}
+p,li{
+    margin: 7px;
+    font-size: 20px;
+    color: rgb(49, 47, 47);
+}
+a{
+    text-decoration: none;
+    color: rgb(49, 47, 47);
+}
+a:hover{
+    color:#b5d4c5;
+}
+h1,h2,h3{
+    letter-spacing: 0.15em;
+}
+h1{
+    margin-bottom: -0.5em;
+    font-size: 2.7em;
+    color: #fff;
+}
+h2{
+    color: rgb(49, 47, 47);
+}
+h3{
+    color:#fff;
+   font-size: 1.7em;
+   font-weight: lighter;
+}
+code{
+    font-size: 20px;
+    color: #944D4F;
+}
+
